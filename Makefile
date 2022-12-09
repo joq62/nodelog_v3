@@ -32,6 +32,7 @@ eunit:
 	rm -rf tests_ebin;
 	rm -rf rebar.lock;
 	rm -rf ebin;
+	rm -rf _build*;
 #	tests 
 	mkdir tests_ebin;
 	erlc -I include -o tests_ebin tests/*.erl;
